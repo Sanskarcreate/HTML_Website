@@ -1,0 +1,8 @@
+<!ELEMENT books (book+)>
+<!ELEMENT book (title, author, year, image?, description)>
+<!ATTLIST book id ID #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
