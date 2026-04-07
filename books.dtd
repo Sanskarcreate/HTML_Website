@@ -1,8 +1,9 @@
 <!ELEMENT books (book+)>
-<!ELEMENT book (title, author, year, image?, description)>
+<!ELEMENT book (title, author, year, image?, description, price?)>
 <!ATTLIST book id ID #REQUIRED>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT author (#PCDATA)>
 <!ELEMENT year (#PCDATA)>
 <!ELEMENT image (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
+<!ELEMENT price (#PCDATA)>

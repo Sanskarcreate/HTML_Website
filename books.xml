@@ -4,18 +4,21 @@
 
 <books>
     <book id="b1">
-        <title></title>
-        <author>F. Scott Fitzgerald</author>
-        <year>1925</year>
-        <image>gatsby.jpg</image>
-        <description>A novel about the American dream and tragedy.</description>
+        <title>Doctor Who The The Secret In Vault 13</title>
+        <author>David Solomons</author>
+        <year>2018</year>
+        <image>https://static.wikia.nocookie.net/tardis/images/5/59/The_Secret_in_Vault_13_%28novel%29.jpg/revision/latest?cb=20181104012822</image>
+        <description>A novel about the Secret in Vault 13.</description>
+        <price>£6.99</price>
     </book>
 
     <book id="b2">
-        <title>1984</title>
-        <author>George </author>
-        <year>1949</year>
-        <description>A dystopian novel about surveillance and control.</description>
+        <title>Romeo and Juliet</title>
+        <author>William Shakespear</author>
+        <year>1980</year>
+        <image>https://m.media-amazon.com/images/I/61LQf6GWT4L.jpg</image>
+        <description>A tragic play about two young lovers.</description>
+        <price>£9.99</price>
     </book>
 
     <book id="b3">
@@ -24,5 +27,15 @@
         <year>1997</year>
         <image>https://cdn.waterstones.com/bookjackets/large/9781/4088/9781408855652.jpg</image>
         <description>A fantasy story about a young wizard.</description>
+        <price>£8.99</price>
+    </book>
+
+    <book id="b4">
+        <title>Naruto</title>
+        <author>Masashi Kishimoto</author>
+        <year>1999</year>
+        <image>https://m.media-amazon.com/images/I/91FPoNmEUsL._UF1000,1000_QL80_.jpg</image>
+        <description>A manga series about a young ninja.</description>
+        <price>£12.99</price>
     </book>
 </books>

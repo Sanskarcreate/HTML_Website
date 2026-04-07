@@ -9,15 +9,15 @@
           body {
             font-family: Arial, sans-serif;
             padding: 20px;
-            background-color: #f9f9f9;
+            background-color: #a5f8e9;
           }
           h1 {
             text-align: center;
-            color: #2e7d32;
+            color: #2f7e33;
           }
           .book {
-            background-color: #fff;
-            border: 1px solid #ccc;
+            background-color: #5ebdec;
+            border: 1px solid #040101;
             border-radius: 10px;
             padding: 15px;
             margin-bottom: 20px;
@@ -58,6 +58,7 @@
               <p><strong>Author:</strong> <xsl:value-of select="author"/></p>
               <p><strong>Year:</strong> <xsl:value-of select="year"/></p>
               <p><xsl:value-of select="description"/></p>
+              <p><strong>Price:</strong> <xsl:value-of select="price"/></p>
             </div>
           </div>
         </xsl:for-each>
